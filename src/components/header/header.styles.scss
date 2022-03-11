@@ -1,0 +1,45 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 20px 20px;
+  font-weight: 700;
+  background: rgb(156, 102, 68);
+  background: linear-gradient(
+    90deg,
+    rgba(156, 102, 68, 1) 0%,
+    rgba(176, 137, 104, 1) 47%,
+    rgba(127, 85, 57, 1) 100%
+  );
+  letter-spacing: 3px;
+
+  .link-padding {
+    margin-right: 50px;
+  }
+
+  a {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    padding: 20px 15px;
+    letter-spacing: 0px;
+
+    .link-padding {
+      margin-right: 5px;
+    }
+  }
+}
+
+.link-hover:hover {
+  background: radial-gradient(
+    circle,
+    rgba(237, 224, 212, 1) 0%,
+    rgba(230, 204, 178, 1) 100%
+  );
+  color: white;
+}

@@ -1,0 +1,51 @@
+.information-body {
+  margin-top: 50px;
+  width: 60%;
+  background: rgb(237, 224, 212);
+  background: radial-gradient(
+    circle,
+    rgba(237, 224, 212, 1) 0%,
+    rgba(230, 204, 178, 1) 100%
+  );
+  padding: 50px;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+  h1 {
+    font-weight: 400;
+  }
+
+  h2 {
+    text-decoration: underline;
+    font-weight: 400;
+  }
+
+  @media only screen and (max-width: 600px) {
+    padding: 15px;
+    width: 85%;
+  }
+}
+
+#info {
+  p {
+    margin: 0;
+  }
+}
+
+#hotelBookings {
+  .m-0 {
+    p {
+      margin: 0;
+    }
+  }
+}
+
+#thingsToDo {
+  margin-bottom: 50px;
+}
+#travellingToIreland {
+  h3 {
+    font-weight: 400;
+  }
+}
