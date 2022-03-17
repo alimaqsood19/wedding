@@ -11,10 +11,8 @@ export const Intro = () => (
       only those who are fully vaccinated against Covid-19 can attend. If you
       have questions shoot us a message and we will do our best to help. Hope
       you can make it!
-      <p>
-        <p>Dee &amp; Ali</p>
-      </p>
     </p>
+    <p>Dee &amp; Ali</p>
   </div>
 );
 
@@ -39,7 +37,7 @@ export const Info = () => (
     <p>Co. Kildare, Ireland</p>
     <p style={{ marginBottom: '20px' }}>W23 CX40</p>
 
-    <p>The ceremony will begin @2pm.</p>
+    <p>The ceremony will begin @2:30pm.</p>
   </div>
 );
 
@@ -62,8 +60,7 @@ export const HotelBookings = () => (
           from 9:00am to 5:00pm GMT.
         </li>
         <li>
-          There are only 37 rooms available in our room block which expires in
-          February, 2022. Please book early to avoid disappointment.
+          There are only a couple of rooms left!
         </li>
         <li>
           Upfront payment is required, however a full refund will be given if a

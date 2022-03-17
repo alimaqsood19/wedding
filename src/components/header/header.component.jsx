@@ -23,12 +23,12 @@ const Header = () => (
         Hotel Bookings
       </Link>
       <Link
+        to="/"
         className='link-hover'
-        to='travellingToIreland'
         spy={true}
         smooth={true}
       >
-        Travel
+        RSVP
       </Link>
     </div>
   </div>

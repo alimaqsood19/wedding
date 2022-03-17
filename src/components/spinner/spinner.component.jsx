@@ -3,7 +3,7 @@ import './spinner.styles.scss';
 
 const Spinner = () => (
   <div className='container'>
-    <div class='lds-ring'>
+    <div className='lds-ring'>
       <div></div>
       <div></div>
       <div></div>
